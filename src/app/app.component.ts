@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'primeraPractica';
   titulo: any = "Hola usuarios!";
+  datos: any = {Descripcion:"Sitio para ver wallpaper de paisajes en HD"};
 }
