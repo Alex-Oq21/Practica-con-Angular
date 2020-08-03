@@ -1,5 +1,13 @@
 <h1>Vsitas HD {{titulo}}</h1>
 <app-hijo [propiedadhijo]="datos"></app-hijo>
+
+<div class="container">
+    <div class="form-group">
+        <label for="desc">Descripcion : </label>
+        <input type="text" [(ngModel)]="datos.Descripcion" class="form-control">
+        <button type="button" (click)="eventoBoton()" class="btn btn-primary btn-blok">Evento angular</button>
+    </div>
+</div>
 <div class="container-fluid">
     <div class="row">
         <div class="col-12">

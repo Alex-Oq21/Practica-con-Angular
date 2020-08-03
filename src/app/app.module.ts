@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BodyComponent } from './body/body.component';
 import { HijoComponent } from './hijo/hijo.component';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,7 @@ import { HijoComponent } from './hijo/hijo.component';
     HijoComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule, FormsModule,
     AppRoutingModule
   ],
   providers: [],
